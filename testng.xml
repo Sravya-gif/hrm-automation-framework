@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HRM Automation Suite">
+
+    <!-- Listener for Extent Report & Screenshot -->
+    <listeners>
+        <listener class-name="com.srm.listeners.TestListener"/>
+    </listeners>
+
+    <test name="HRM Tests">
+
+        <classes>
+            <class name="com.srm.tests.LoginTest"/>
+            <class name="com.srm.tests.EmployeeTest"/>
+            <class name="com.srm.tests.LeaveTest"/>
+            <class name="com.srm.tests.AdminTest"/>
+            <class name="com.srm.tests.ValidationTest"/>
+        </classes>
+
+    </test>
+
+</suite>
