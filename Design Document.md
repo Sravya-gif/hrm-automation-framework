@@ -2,11 +2,13 @@
 
 
 1. Introduction
-
+```
 This project is an automation testing framework built using Selenium and Java for the OrangeHRM web application.
 The framework automates important features like login, employee management, leave management, admin user management, and form validations.
+```
 
 2. Tools & Technologies
+```
 Java
 Selenium WebDriver
 TestNG
@@ -14,8 +16,11 @@ Maven
 WebDriverManager
 Extent Reports
 Apache POI (for Excel data)
+```
 
-3. Key Features
+4. Key Features
+
+```
 Page Object Model (POM)
 Data-driven testing using Excel
 Screenshot capture on failure
@@ -23,6 +28,7 @@ Extent report generation
 Config file usage (no hardcoding)
 FluentWait for dynamic elements
 TestNG for test execution
+```
 
 * Project Structure
 ```
