@@ -57,7 +57,7 @@ HRM-Automation-Framework
 │
 ├── src/main/resources
 │   ├── config.properties
-│   └── testdata.xlsx
+│   └── testdata2.xlsx
 │
 ├── src/test/java
 │   ├── com.srm.tests
@@ -65,7 +65,8 @@ HRM-Automation-Framework
 │   │   ├── EmployeeTest.java
 │   │   ├── LeaveTest.java
 │   │   ├── AdminTest.java
-│   │   └── ValidationTest.java
+│   │   ├── ValidationTest.java
+│   │   └── DataProviders.java
 │   │
 │   ├── com.srm.listeners
 │   │   ├── TestListener.java
